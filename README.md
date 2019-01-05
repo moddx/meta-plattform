@@ -13,7 +13,7 @@ This repository represents the actual service plattform.
         # either
         cp -R template/ ~/.Meta/
         # or (preferred)
-        ln -s template/ ~/.Meta/
+        ln -s `pwd`/template/ ~/.Meta/
 
 4. Run the deployment and production services via the scripts in the `services/` subdir
 
