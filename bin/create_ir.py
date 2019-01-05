@@ -34,7 +34,7 @@ def main(defaultcore, defaultcunit, defaultoutput, defaulttarget):
     
 if __name__ == '__main__':
     base = os.path.dirname(__file__)
-    defaultcore = os.path.join(base, '..', 'app', 'libs', 'meta', 'core')
+    defaultcore = os.path.join(base, '..', 'backend', 'core')
     defaultcunit = os.path.join(base, 'testfiles', 'MyComputeUnit.cpp') 
     defaultoutput = os.path.join(base, 'MyComputeUnit.ll') 
     defaulttarget = 'x86_64-pc-linux-gnu'
