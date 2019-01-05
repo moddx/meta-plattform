@@ -90,3 +90,5 @@ echo "to clean up and stop the created processes use:"
 echo ""
 echo "  kill $DP_PID $CS_PID $TR_PID $IR_PID" 
 echo ""
+
+echo "$DP_PID $CS_PID $TR_PID $IR_PID" > .pids

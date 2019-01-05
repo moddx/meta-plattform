@@ -55,3 +55,5 @@ echo "to clean up and stop the created processes use:"
 echo ""
 echo "  kill $DH_PID" 
 echo ""
+
+echo "$DH_PID" > .pids
