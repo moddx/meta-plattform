@@ -2,7 +2,10 @@
 
 This repository represents the actual service plattform.
 
-##How to use
+## Dependencies
+Depends on the [meta-backend](https://github.com/moddx/meta-backend) library.
+
+## How to use
 1. Update the submodules
 
         git submodule update --init --recursive
