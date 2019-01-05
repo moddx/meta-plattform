@@ -1,4 +1,4 @@
-#meta-plattform
+# meta-plattform
 
 This repository represents the actual service plattform.
 
